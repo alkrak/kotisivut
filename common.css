@@ -1,11 +1,18 @@
 h1 {
     font-size: x-large;
     color: #2660b8;
-    font-family:'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 39px;
-    position: absolute;
+    position: relative;
+}
+
+footer {
+    background-color: #2660b8;
+    width: 100%;
+    position: relative;
+    min-height: 300px;
 }
 
 ul.navibar {
@@ -15,8 +22,7 @@ ul.navibar {
     overflow: hidden;
     background-color: #4369d3;
     border-radius: 10px;
-    position: -webkit-sticky;
-    position: sticky;   
+    position: absolute;   
     min-width: min-content;
     max-width: max-content;
     top: 0;

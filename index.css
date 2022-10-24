@@ -6,7 +6,7 @@ html,body{
 }
 
 p {
-    font-size: large;
+    font-size: x-large;
     color: #000000;
     font-family: sans-serif;
     font-style: normal;
@@ -15,7 +15,7 @@ p {
     padding: 0;
 }
 
-#background {
+img.background {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -28,28 +28,11 @@ p {
 
 #descriptionh1 {
     left: 15%;
-    max-width: 50%;
+    max-width: 60%;
 
 }
 
 #description {
     left: 15%;
-    width: 50%;
-}
-
-#copyright, #contact {
-    font-size: small;
-    font-weight: bold;
-    padding: 3em 0 0 0;
-    max-width: 50%;
-}
-
-#copyright {
-    left: 15%;
-    
-}
-
-#contact {
-    left: 15%;
-    
+    width: 60%;
 }

@@ -10,6 +10,6 @@ function changeImage() {
     if (counter > 3) {
         counter = 1;
     }
-    document.getElementById("background").src = "alkrakennus" + String(counter) + ".jpg";
+    document.getElementById("background").src = "media/alkrakennus" + String(counter) + ".jpg";
     counter += 1;
 }

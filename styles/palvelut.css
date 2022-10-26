@@ -1,0 +1,23 @@
+
+#descriptionh1 {
+    left: 15%;
+    max-width: 75%;
+
+}
+
+#description,#description2 {
+    left: 15%;
+    max-width: 75%;
+}
+
+ul#services{
+    left: 15%;
+    max-width: 75%;
+    font-size: x-large;
+    color: #000000;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    padding: 0 0 0 2em;
+}

@@ -1,11 +1,52 @@
 
 #descriptionh1 {
     left: 15%;
-    max-width: 60%;
+    max-width: 75%;
 
 }
 
 #description {
     left: 15%;
-    max-width: 60%;
+    max-width: 75%;
+}
+
+#slideshow {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height:607px;
+}
+  
+   
+#slideshow img {
+    position: absolute;
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height:100%;
+}
+  
+#slideshow img:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    z-index: 20;
+}
+
+#slideshow img:nth-of-type(2) {
+    z-index: 10;
+}
+
+#slideshow img:nth-of-type(n+3) {
+    display: none;
+}
+  
+@keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
 }

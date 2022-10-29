@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Alkrak</title>
+        <link rel="stylesheet" href="../styles/common.css">
+        <link rel="stylesheet" href="../styles/pienkohteet.css">
+    </head>
+
+    <body onload="checkViewportSize();setTimer();setModal();">
+
+        <ul class = "navibar">
+            <li class = "navibar"><a class = "navibar" href ="../index.html">Koti</a></li>
+            <li class = "navibar"><a class = "navibar" href ="yritys.html">Yritys</a></li>
+            <li class = "navibar"><a class = "navibar" href ="palvelut.html">Palvelut</a></li>
+            <li class = "navibar"><a class = "navibar" href ="referenssit.html">Referenssit</a></li>
+            <li class = "navibar"><a class = "navibar" href ="yhteystiedot.html">Yhteystiedot</a></li>
+        </ul>
+        
+        <div id="page-container">
+            <div id="content-wrap">
+            <img class="background" id="background" src="../media/alkrakennus2.jpg" alt="Kuvia rakennuspiirrustuksista ja suunnitelmista"/>
+            
+            <h1 id="descriptionh1">PIENET KOHTEET</h1>
+            
+            
+            <table id="imageTable">
+                <!--
+                <tr>
+                    <td>
+                        <div class="imageHeader">1. Saunamökin uudisrakennus</div>
+                    </td>
+                    <td>
+                        <div class="imageHeader">2. Savusauna- Tupa uudisrakennus</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="referenceImg" src="../media/referenssit/pienkohteet/1_saunamokin_uuudisrakennus.jpg" 
+                        alt="1. Saunamökin uudisrakennus">
+                    </td>
+                    <td>
+                        <img class="referenceImg" src="../media/referenssit/pienkohteet/2_savusauna_tupa_uudisrakennus.jpg" 
+                        alt="2. Savusauna- Tupa uudisrakennus">
+                    </td>
+                </tr>
+                -->
+            </table>
+            
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+
+
+            </div>
+        <footer>
+            <p id="contact">0400 6838 06<br>
+                ari.latva-kokko(at)netikka.fi
+            </p>
+            <p id="copyright">Copyright © 2022 Lakeuden ALK-Rakennus</p>
+        </footer>
+        </div>
+        <script src="../scripts/referenssit.js"></script>
+    </body>
+</html>
